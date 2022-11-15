@@ -4,9 +4,9 @@ from flask_security import Security, SQLAlchemyUserDatastore, login_required, Us
 from flask_security.utils import hash_password
 
 app= Flask(__name__)
-app.config['SECRET_KEY'] = 'cocochanel177'
+app.config['SECRET_KEY'] = 'xxxxxx'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
-app.config['SECURITY_PASSWORD_SALT'] = 'cocochanel177'
+app.config['SECURITY_PASSWORD_SALT'] = 'xxxxxx'
 
 db = SQLAlchemy(app)
 
